@@ -6,10 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Minutes",
+            "request": "launch",
+            "mainClass": "Minutes",
+            "projectName": "1-5-1-math-modulus-exercises-lilnuggetcool_eec2980d"
+        },
+        {
+            "type": "java",
+            "name": "Rads",
+            "request": "launch",
+            "mainClass": "Rads",
+            "projectName": "1-5-1-math-modulus-exercises-lilnuggetcool_eec2980d"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": "ConsoleProgram",
             "args": "${command:SpecifyProgramArgs}"
-        },
+        }
     ]
 }
